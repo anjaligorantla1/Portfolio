@@ -1,0 +1,253 @@
+nav,.nav-links{
+    display:flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height:12vh;
+    
+}
+.nav-links{
+    gap:32px;
+    list-style: none;
+    font-size: 24px;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:blueviolet;
+    text-decoration: underline;
+    text-decoration-color: lightgrey;
+    text-underline-offset: 10px;
+}
+.logo{
+    font-size: 32px;
+    margin-right: 10px;
+}
+/*profile section*/
+.section-pic-container{
+    display: flex;
+    height: 350px;
+    width: 350px;
+    margin-top: 10px;
+}
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+.section-text-p1{
+    text-align: center;
+}
+.section-text-p2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.section-text p{
+    font-weight: 500;
+}
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin:5 140px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 80vh;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.btn{
+    font-weight: 600;
+    padding: 16px;
+    width: 128px;
+    border-radius: 32px;
+}
+.btn-color-1,
+.btn-color-2{
+    border:rgb(53,53,53)1.6px solid ;
+}
+.btn-color-1:hover,
+.btn-color-2:hover{
+    cursor: pointer;
+}
+.btn-color-1,
+.btn-color-2:hover{
+    background-color:rgb(53,53,53);
+    color: white;
+}
+.btn-color-1:hover{
+    background-color: rgb(255,255,255);
+    color: black;
+}
+.icon{
+    height: 32px;
+    cursor:pointer ;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppin",sans-serif;
+}
+/*about section*/
+.about-container{
+    gap: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.about-detail-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.text-container{
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    color:#333 ;
+    line-height: 1.4;
+}
+.about-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+}
+.about-container{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.about-pic{
+    border-radius: 32px;
+    width: 350px;
+    height: 400px;
+}
+.detail-container{
+    padding: 24px;
+    flex: 1;
+    background: white;
+    border-radius: 32px;
+    border:rgb(53,53,53) 1.6px solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+.section-container{
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+    margin-top: 32px;
+}
+/*experience section*/
+.experience-detail-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*Two columns*/
+    gap: 40px;
+    justify-content: center;
+    max-width: 600px;
+    column-gap: 64px;
+}
+article{
+    display: flex;
+    width:160px ;
+    justify-content: space-around;
+    gap: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+.experience-sub-title{
+     margin-bottom: 32px;
+     color:rgb(85,85,85);
+     font-weight: 600;
+     font-size: 28px;
+}
+/*peojects*/
+.color-container{
+    border-color: rgb(163,163,163);
+    background-color: rgb(255,255,255);
+}
+.project-img{
+    border-radius: 32px;
+    height: 150px;
+    width: 150%;
+    border:rgb(53,53,53) 1.6px solid;
+    border-color: rgb(163,163,163);
+}
+.project-title{
+    margin: 16px;
+    color: black;
+}
+.project-btn{
+    background-color:#6c5ce7;
+    color: white;
+    padding: 20px;
+}
+/*contact*/
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 32px;
+    border: rgb(53,53,53) 8px solid;
+    border-color: rgb(163,163,163);
+    margin: 4px auto;
+    padding: 10px;
+}
+.contact-info-container p{
+    font-size: larger;
+}
+.contact-info-container{
+    display: flex;
+    margin:16px ;
+    align-items: center;
+    gap:8px;
+
+}
+.email-icon{
+    height:30px;
+
+}
+.text{
+    margin-top: 5px;
+}
+/*internships*/
+.intern{
+    text-align: center;
+    color:rgb(85,85,85);
+     font-weight: 600;
+     font-size: 28px;
+     padding-bottom: 10px;
+}
+
+
+    
+    
